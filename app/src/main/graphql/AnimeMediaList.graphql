@@ -1,0 +1,15 @@
+query AnimeMediaList {
+    Page {
+        media {
+            title {
+                userPreferred
+            }
+            genres
+            type
+            coverImage {
+                medium
+            }
+            episodes
+        }
+    }
+}
